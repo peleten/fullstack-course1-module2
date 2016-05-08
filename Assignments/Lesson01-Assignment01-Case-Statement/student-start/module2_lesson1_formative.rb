@@ -13,3 +13,19 @@ elsif some_var == false
 else
   puts "I guess nothing matched... But why?"
 end
+
+some_var = "false"
+another_var = "nil"
+
+case
+
+  puts "Don't think about the pink elephant!" when some_var == "pink elephant"
+  puts "Question mark in the method name?" when another_var.nil
+  puts "Looks like this one should execute" when some_var == false
+  else puts "I guess nothing matches....But why"
+end
+
+end
+  
+  
+  
